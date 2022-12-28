@@ -20,135 +20,75 @@ div{
 
 .green{
     background-color: #95E1D3;
-    animation: greenhop 1500ms ease infinite;
+    animation: greenhop 1.5s alternate infinite ease-in-out;
 }
 
 .purple{
     background-color: #AA96DA;
-    animation: purplehop 1500ms 500ms ease infinite;
+    animation: purplehop 1.5s 500ms alternate infinite ease-in-out;
 }
 
 .yellow{
     background-color: #FFFFD2;
-    animation: yellowhop 1500ms 1000ms ease infinite;
+    animation: yellowhop 1.5s 1000ms alternate infinite ease-in-out;
 }
 
 .red{
     background-color: #FCBAD3;
-    animation: redhop 1500ms 1500ms ease infinite;
+    animation: redhop 1.5s 1500ms alternate infinite ease-in-out;
 }
 
 .blue{
     background-color: #A8D8EA;
-    animation: bluehop 1500ms 2000ms ease infinite;
+    animation: bluehop 1.5s 2000ms alternate infinite ease-in-out;
 }
 
 @keyframes greenhop{
-    0% {
-        transform: translateY(0);
-    }
-    
-    25% {
-        transform: translateY(-25%);
+    from{
+        transform: translateY(0%);
     }
 
-    50% {
-        transform: translateY(-50%);
-    }
-
-    75% {
-        transform: translateY(-75%);
-    }
-
-    100%{
+    to{
         transform: translateY(-100%);
     }
 }
 
 @keyframes purplehop{
-    0% {
-        transform: translateY(0);
-    }
-    
-    25% {
-        transform: translateY(-25%);
+    from{
+        transform: translateY(0%);
     }
 
-    50% {
-        transform: translateY(-50%);
-    }
-
-    75% {
-        transform: translateY(-75%);
-    }
-
-    100%{
+    to{
         transform: translateY(-100%);
     }
 }
 
 @keyframes yellowhop{
-    0% {
-        transform: translateY(0);
-    }
-    
-    25% {
-        transform: translateY(-25%);
+    from{
+        transform: translateY(0%);
     }
 
-    50% {
-        transform: translateY(-50%);
-    }
-
-    75% {
-        transform: translateY(-75%);
-    }
-
-    100%{
+    to{
         transform: translateY(-100%);
     }
 }
 
 @keyframes redhop{
-    0% {
-        transform: translateY(0);
-    }
-    
-    25% {
-        transform: translateY(-25%);
+    from{
+        transform: translateY(0%);
     }
 
-    50% {
-        transform: translateY(-50%);
-    }
-
-    75% {
-        transform: translateY(-75%);
-    }
-
-    100%{
+    to{
         transform: translateY(-100%);
     }
 }
 
 @keyframes bluehop{
-    0% {
-        transform: translateY(0);
-    }
-    
-    25% {
-        transform: translateY(-25%);
+    from{
+        transform: translateY(0%);
     }
 
-    50% {
-        transform: translateY(-50%);
-    }
-
-    75% {
-        transform: translateY(-75%);
-    }
-
-    100%{
+    to{
         transform: translateY(-100%);
     }
 }
