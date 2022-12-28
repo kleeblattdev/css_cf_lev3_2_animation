@@ -20,27 +20,27 @@ div{
 
 .green{
     background-color: #95E1D3;
-    animation: greenhop 2s infinite;
+    animation: greenhop 1500ms ease infinite;
 }
 
 .purple{
     background-color: #AA96DA;
-    animation: purplehop 2s 3s infinite;
+    animation: purplehop 1500ms 500ms ease infinite;
 }
 
 .yellow{
     background-color: #FFFFD2;
-    animation: yellowhop 2s 4s infinite;
+    animation: yellowhop 1500ms 1000ms ease infinite;
 }
 
 .red{
     background-color: #FCBAD3;
-    animation: redhop 2s 5s infinite;
+    animation: redhop 1500ms 1500ms ease infinite;
 }
 
 .blue{
     background-color: #A8D8EA;
-    animation: bluehop 2s 6s infinite;
+    animation: bluehop 1500ms 2000ms ease infinite;
 }
 
 @keyframes greenhop{
