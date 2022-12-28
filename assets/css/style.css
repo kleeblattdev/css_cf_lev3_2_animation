@@ -61,7 +61,7 @@ div{
     }
 
     100%{
-        transform: translateY(-100px);
+        transform: translateY(-100%);
     }
 }
 
@@ -83,7 +83,7 @@ div{
     }
 
     100%{
-        transform: translateY(-100px);
+        transform: translateY(-100%);
     }
 }
 
@@ -105,7 +105,7 @@ div{
     }
 
     100%{
-        transform: translateY(-100px);
+        transform: translateY(-100%);
     }
 }
 
@@ -127,7 +127,7 @@ div{
     }
 
     100%{
-        transform: translateY(-100px);
+        transform: translateY(-100%);
     }
 }
 
@@ -149,6 +149,6 @@ div{
     }
 
     100%{
-        transform: translateY(-100px);
+        transform: translateY(-100%);
     }
 }
